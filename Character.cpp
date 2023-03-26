@@ -17,3 +17,6 @@ int Character::getDamage() const
 void Character::modifyHealth(int amount) {
         health += amount;
     }
+bool Character::isDead() const {
+        return health > 0;
+}

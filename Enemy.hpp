@@ -8,7 +8,7 @@ public:
     Enemy(int health, int damage, int defense);
 
     virtual void attack(Character& other);
-    
+    void setStats(int health, int damage, int defense);
 };
 
 #endif

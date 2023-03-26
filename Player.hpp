@@ -11,6 +11,7 @@ public:
     void setHealth(int amount);
     void setDamage(int amount);
     void setDefense(int amount);
+    
 };
 
 #endif
