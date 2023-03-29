@@ -7,7 +7,7 @@ class Enemy : public Character{
 public:
     Enemy(int health, int damage, int defense);
 
-    virtual void attack(Character& other);
+    virtual void attack(Character &other);
     void setStats(int health, int damage, int defense);
 };
 

@@ -17,6 +17,9 @@ public:
     virtual void attack(Character &other) = 0;
     void modifyHealth(int amount);
     bool isDead() const;
+    void setHealth(int amount);
+    void setDamage(int amount);
+    void setDefense(int amount);
     
 };
 

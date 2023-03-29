@@ -18,5 +18,19 @@ void Character::modifyHealth(int amount) {
         health += amount;
     }
 bool Character::isDead() const {
-        return health > 0;
+        return health <= 0;
 }
+void Character::setHealth(int amount){
+        health = amount;
+        
+}
+void Character::setDamage(int amount){
+        damage = amount;
+        
+}
+void Character::setDefense(int amount){
+        defense = amount;
+        
+}
+
+
